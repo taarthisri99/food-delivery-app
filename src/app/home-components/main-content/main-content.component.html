@@ -1,0 +1,21 @@
+<div class="main-options">
+  <app-item *ngFor="let mainOption of mainOptionsList" content={{mainOption.content}} img={{mainOption.image}} url={{mainOption.url}}>
+  </app-item>
+</div>
+
+<div class="collection-options">
+  <div class="heading">Collections</div>
+  <div class="text">Explore curated lists of top restaurants, cafes, pubs, and bars in Chennai, based on trends
+  </div>
+</div>
+
+<div class="main-options">
+  <app-collection-item *ngFor="let collectionOption of collectionOptionList" content={{collectionOption.content}}
+    img={{collectionOption.image}} visits={{collectionOption.visits}}>
+  </app-collection-item>
+</div>
+
+<div class="places">
+  <div class="heading">Popular localities in and around Chennai</div>
+  <app-place-item *ngFor="let place of placesList" place={{place.place}} count={{place.count}}></app-place-item>
+</div>

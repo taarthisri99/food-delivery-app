@@ -1,0 +1,30 @@
+.item-container {
+  width: 17rem;
+  border-radius: 2rem;
+  margin: 1rem .3rem;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.item-content {
+  position: absolute;
+  font-size: x-large;
+  padding: 1rem;
+  margin-top: auto;
+  bottom: 0;
+  color: white
+}
+
+.visits {
+  font-size: medium;
+  align-items: center;
+}

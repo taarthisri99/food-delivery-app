@@ -1,0 +1,75 @@
+.collection-options {
+  background-color: #F8F8F8;
+  padding: 1.5rem 0;
+}
+
+.main-options {
+	display: flex;
+	justify-content: center;
+}
+
+.heading {
+  margin: 0 0 .5rem 7.5rem;
+  font-size: 30px;
+}
+
+.text {
+  margin-left: 7.5rem;
+  font-size: 18px;
+  margin-top: 1.5rem;
+  color: #363636;
+}
+
+.dine-out {
+  margin: 2rem 0;
+}
+
+.dining-out-items {
+  margin: 2rem 0 1.5rem 7.5rem;
+}
+
+.choice {
+  margin: 0 0 1.5rem 6rem;
+  display: flex;
+
+
+    .choice-boxes {
+      margin: 1rem 0 0 2rem;
+      display: flex;
+
+      .icon {
+        width: 60px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #F8F8F8;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 10px;
+        flex: 1;
+      }
+
+      .icon img {
+        width: 30px;
+        height: 30px;
+      }
+
+      .choice-text {
+        font-size: 20px;
+        flex: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 10px;
+      }
+    }
+}
+
+.light-blue {
+  background-color: #EAF5F6!important;
+}
+
+.red {
+  color: #F16775;
+}
+

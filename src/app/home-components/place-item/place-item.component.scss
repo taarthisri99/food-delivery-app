@@ -1,0 +1,20 @@
+.item-container {
+  width: 290px;
+  padding: 22px 25px;
+  font-size: 20px;
+  border: 1px solid gainsboro;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  box-shadow: rgb(28 28 28 / 8%) 0px 1.42623px 2.85246px;
+  position: relative;
+  margin: 10px 25px 20px 0;
+  display: inline-block;    
+  cursor: pointer;
+
+  .icon {
+    position: absolute;
+    right: 10px;
+    color: grey;
+  }
+}

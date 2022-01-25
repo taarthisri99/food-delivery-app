@@ -1,0 +1,48 @@
+.main-options {
+	display: flex;
+	justify-content: center;
+}
+
+.heading {
+	margin: 1rem 0 .5rem 7.5rem;
+	font-size: 36px;
+}
+
+.text {
+	margin-left: 7.5rem;
+  margin-bottom: 1rem;
+	font-size: 18px;
+}
+
+.places {
+	margin: 1rem 0 2rem 7.5rem;
+
+  .heading{
+    margin: 5rem 0 2rem 20rem;
+  }
+}
+
+.sub-heading {
+	margin: 3rem 0 .5rem 7.5rem;
+	font-size: 24px;
+  color: #363636;
+}
+
+.content {
+  margin: 2rem 12rem .5rem 7.5rem;
+
+  span {
+    margin: 2rem 0 0;
+    color: #828282;
+    font-size: 20px;
+  }
+}
+
+.icon {
+  font-size: 4px;
+  margin: 10px 10px;
+}
+
+.other-options {
+  margin: 5rem 0;
+}

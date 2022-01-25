@@ -1,0 +1,10 @@
+<div class="trending-big-image">
+  <img src="../../../assets/images/trending/trending-main.png" />
+</div>
+
+<div class="main-content">
+  <app-trending-item *ngFor="let trendingItem of trendingItemsList" image={{trendingItem.image}}
+    title={{trendingItem.title}} diningRating={{trendingItem.diningRating}}
+    deliveryRating={{trendingItem.deliveryRating}} type={{trendingItem.type}} place={{trendingItem.place}}>
+  </app-trending-item>
+</div>

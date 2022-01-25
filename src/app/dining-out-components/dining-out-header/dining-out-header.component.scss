@@ -1,0 +1,71 @@
+.header {
+  padding: 1rem 8rem;
+  display: flex;
+
+  .zomato {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .login, .sign-up {
+    font-size: 1.2rem;
+    color: #747474;
+  }
+
+  .zomato, .login, .sign-up {
+    flex: .5;
+    display: flex;
+    align-items: center;
+  }
+
+  .search-bar-container {
+    flex: 6;
+  }
+
+  .input-container {
+    display: flex;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: white;
+    width: 80%;
+    margin: 0 0 0 3rem;
+    padding: 1rem 1rem;
+    border: 1px solid gainsboro;
+    box-shadow: rgb(28 28 28 / 12%) 0px 0.2rem .3rem;
+    border-radius: 8px;
+  }
+  
+  .location {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: #F87D8A;
+    font-size: 1.3rem;
+
+    i {
+      font-size: larger;
+    }
+  }
+  
+  .location input, .search-bar input{
+    outline: 0;
+    border: 0;
+    color:black;
+    margin-left: .5rem;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .search-bar {
+    flex: 3;
+    color: grey;
+    display: flex;
+    align-items: center;
+
+    i {
+      padding-left: 10px;
+      border-left: 2px solid #E8E8E8;
+    }
+  }
+}

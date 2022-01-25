@@ -1,0 +1,148 @@
+.heading {
+  margin: 1rem 0 0.5rem 7.5rem;
+  font-size: 36px;
+}
+
+.sub-heading {
+  margin: 3rem 0 0.5rem 7.5rem;
+  font-size: 24px;
+  color: #363636;
+}
+
+.content {
+  margin: 2rem 12rem 0.5rem 7.5rem;
+  cursor: pointer;
+
+  span {
+    margin: 2rem 0 0;
+    color: #828282;
+    font-size: 20px;
+  }
+}
+
+.icon {
+  font-size: 4px;
+  margin: 10px 10px;
+}
+
+.other-options {
+  margin: 5rem 0;
+}
+
+.restaurant-chain-item {
+  margin: 2rem 10rem 5rem 7.5rem;
+  cursor: pointer;
+
+  span {
+    width: 200px;
+    padding: 5px 7px 10px 0;
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    display: inline-block;
+    color: #828282;
+  }
+}
+
+.footer {
+  height: 400px;
+  background-color: #f8f8f8;
+}
+
+.title {
+  display: flex;
+  padding: 2rem 7.5rem;
+  justify-content: space-between;
+}
+
+.title-left {
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.title-right img {
+  width: 20px;
+  margin: 2px 5px 0 0;
+}
+
+.globe {
+  margin-right: 5px;
+}
+
+.box-one,
+.box-two {
+  display: inline-block;
+  width: 105px;
+  border: 1px solid gainsboro;
+  margin: 0 10px;
+  padding: 2px 5px;
+  border-radius: 5px;
+
+  .icon {
+    margin-left: 8px;
+    color: #363636;
+    font-size: 15px;
+  }
+}
+
+.box-one > .content {
+  position: absolute;
+  top: 50%;
+}
+
+.links-footer {
+  display: flex;
+  padding: 2rem 7.5rem;
+  justify-content: space-between;
+}
+
+.first-box,
+.second-box,
+.fourth-box,
+.fifth-box {
+  flex: 1;
+}
+
+.third-box {
+  flex: 1.5;
+}
+
+.heading-three {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.links {
+  margin-top: 10px;
+  color: gray;
+  cursor: pointer;
+}
+
+.margin-top {
+  margin-top: 30px;
+}
+
+.social-icon {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.fifth-box > img {
+  width: 125px;
+  display: block;
+  margin: 25px 0;
+  cursor: pointer;
+}
+
+.copy-right {
+  background-color: #f8f8f8;
+}
+
+.copy-right-text {
+  border-top: 1px solid gainsboro;
+  margin: 0 7.5rem;
+  padding: 15px 0 20px 0;
+  font-size: 15px;
+  color: gray;
+}

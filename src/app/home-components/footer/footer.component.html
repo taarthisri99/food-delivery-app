@@ -1,0 +1,87 @@
+<div class="other-options">
+  <div class="heading">Explore other options for you here</div>
+  <div class="sub-heading">Popular cuisines near me</div>
+  <div class="content"><span *ngFor="let cuisine of cuisineList">{{cuisine}} near me<i
+        class="fas fa-circle icon"></i></span></div>
+</div>
+
+<div class="other-options">
+  <div class="sub-heading">Popular restaurant types near me</div>
+  <div class="content"><span *ngFor="let restaurant of restaurantList">{{restaurant}} near me<i
+        class="fas fa-circle icon"></i></span></div>
+</div>
+
+<div class="restaurant-chain">
+  <div class="sub-heading">Top Restaurant Chains</div>
+  <div class="restaurant-chain-item">
+    <span *ngFor="let restaurant of restaurantChainList">{{restaurant}}</span>
+  </div>
+</div>
+
+<div class="cities">
+  <div class="sub-heading">Cities We Deliver To</div>
+  <div class="restaurant-chain-item">
+    <span *ngFor="let cities of citiesList">{{cities}}</span>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="title">
+    <div class="title-left">Zomato</div>
+    <div class="title-right">
+      <div class="box-one">
+        <img src="../../../assets/images/indian-flag.jpg" />
+        India<i class="fa fa-chevron-down icon"></i>
+      </div>
+      <div class="box-two">
+        <i class="fa fa-globe globe"></i>
+        English<i class="fa fa-chevron-down icon"></i>
+      </div>
+    </div>
+  </div>
+  <div class="links-footer">
+    <div class="first-box">
+      <div class="heading-three">COMPANY</div>
+      <div class="links">Who We Are</div> 
+      <div class="links">Blog</div> 
+      <div class="links">Careers</div> 
+      <div class="links">Report Fraud</div> 
+      <div class="links">Contact</div> 
+      <div class="links">Investor Relations</div> 
+    </div>
+    <div class="second-box">
+      <div class="heading-three">FOR FOODIES</div>
+      <div class="links">Code of Conduct</div> 
+      <div class="links">Community</div> 
+      <div class="links">Blogger Help</div> 
+      <div class="links">Mobile Apps</div>  
+    </div>
+    <div class="third-box">
+      <div class="heading-three">FOR RESTAURANTS</div>
+      <div class="links">Add restaurant</div> 
+      <div class="heading-three margin-top">FOR ENTERPRISES</div>
+      <div class="links">Zomato for Work</div> 
+    </div>
+    <div class="fourth-box">
+      <div class="heading-three">FOR YOU</div>
+      <div class="links">Privacy</div> 
+      <div class="links">Terms</div> 
+      <div class="links">Security</div> 
+      <div class="links">Sitemap</div>  
+    </div>
+    <div class="fifth-box">
+      <div class="heading-three">SOCIAL LINKS</div>
+      <i class="fa fa-facebook social-icon"></i>
+      <i class="fa fa-twitter social-icon"></i>
+      <i class="fa fa-instagram social-icon"></i>
+      <img src="../../../assets/images/app-store.png" />
+      <img src="../../../assets/images/google-play.png" />
+    </div>
+  </div>
+  <div class="copy-right">
+    <div class="copy-right-text">
+    <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2022 © Zomato™ Ltd. All rights reserved.</p>
+  </div>
+  </div>
+</div>
+
