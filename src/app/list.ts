@@ -485,3 +485,6 @@ export const trendingItemsList: trendingItems[] = [
     place: "Porur, Chennai",
   },
 ]
+export const restaurantInfo = ["Home Delivery", "Free Parking", 
+"Free Wifi", "Romantic Dining", "Desserts and Bakes",
+"Takeaway Available", "Indoor Seating", "Valet Parking Available"];

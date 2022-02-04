@@ -30,7 +30,7 @@
   <div class="dining-out-items">
     <app-dining-out-items *ngFor="let diningOutItems of diningOutItemsList" image={{diningOutItems.image}}
       title={{diningOutItems.title}} rating={{diningOutItems.rating}} type={{diningOutItems.type}}
-      cost={{diningOutItems.cost}} place={{diningOutItems.place}}>
+      cost={{diningOutItems.cost}} place={{diningOutItems.place}} [routerLink]="['/restaurant', diningOutItems.title]">
     </app-dining-out-items>
   </div>
 </div>

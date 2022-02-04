@@ -1,0 +1,32 @@
+<div class="restaurant">
+  <div class="restaurant-image">
+    <div class="big-image"><img src={{restaurant.image}} /></div>
+    <div class="small-image">
+      <div class="grid-container">
+        <div class="grid-item"><img src="../../assets/images/restaurants/restaurant-1.avif" /></div>
+        <div class="grid-item"><img src="../../assets/images/restaurants/restaurant-2.avif" /></div>
+        <div class="grid-item"><img src="../../assets/images/restaurants/restaurant-3.avif" /></div>
+        <div class="grid-item"><img src="../../assets/images/restaurants/restaurant-4.avif" /></div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="left-side-content">
+      <div class="restaurant-heading">{{restaurant.title}}</div>
+      <div class="restaurant-type">{{restaurant.type}}</div>
+      <div class="restaurant-place">{{restaurant.place}}</div>
+      <div class="restaurant-sub-heading">Average Cost</div>
+      <div class="cost"><span class="cost-style">{{restaurant.cost}}</span> people (approx.)</div>
+      <div class="cost-sub-content">Exclusive of applicable taxes and charges, if any</div>
+      <div class="dining-rating">Dining Rating : {{restaurant.rating}}</div>
+      <div class="content-card">Cash and Cards accepted</div>
+      <button class="button-book"><span class="text">BOOK</span></button>
+    </div>
+    <div class="right-side-content">
+      <div class="sub-heading">Info</div>
+      <ul class="info" *ngFor="let restaurantInfo of restaurantInfoList">
+        <li><img src="../../assets/images/tick.png"/>{{restaurantInfo}}</li>
+      </ul>
+    </div>
+  </div>
+</div>

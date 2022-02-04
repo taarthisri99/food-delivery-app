@@ -4,7 +4,7 @@
     <div class="right-side">
       <div class="item">Add restaurant</div>
       <div class="item">Log in</div>
-      <div class="item">Sign up</div>
+      <div class="item" (click)="showCard()">Sign up </div>
     </div>
   </div>
 
@@ -24,4 +24,26 @@
       </div>
     </div>
   </div>
+</div>
+
+<div *ngIf="cardToAddPost" class="center-card" [ngClass]="{'change-background': myClass}">
+  <div class="card-box">
+    <div class="header-pop-up">Sign Up</div>
+    <div>
+      <form>
+        <input type="text" placeholder="Your Name..." class="input-box-card">
+        <input type="text" placeholder="Your Email ID..." class="input-box-card">
+        <div class="check-box-container">
+          <input type="checkbox" class="check-box"> 
+          <label>I agree to Zomato's Terms of Service, Privacy Policy and Content Policies</label>
+          <input type="submit" value="Create Account" class="input-submit">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div *ngIf="hideButton" class="hide-button">
+  <button (click)="hide()">
+    <span class="material-icons-outlined">close</span>
+  </button>
 </div>

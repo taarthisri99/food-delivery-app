@@ -1,37 +1,62 @@
 import { Injectable } from '@angular/core';
-import { mainOptionsList, collectionOptionList, placesList, diningOutItemsList, trendingItemsList } from '../list';
+import { mainOptionsList, collectionOptionList, placesList, diningOutItemsList, trendingItemsList, restaurantList } from '../list';
 import { mainOptions, collectionOptions, places, diningOutItems, trendingItems } from '../list-interface';
 
 @Injectable({
   providedIn: 'root'
 })
-export class AppServiceService {
 
-  mainOptionsList: mainOptions[] = mainOptionsList;
-  collectionOptionList: collectionOptions[] = collectionOptionList;
-  placesList: places[] = placesList;
-  diningOutItemsList: diningOutItems[] = diningOutItemsList;
-  trendingItemsList: trendingItems[] = trendingItemsList;
+/**  
+ * AppServiceService implements methods to receive and send data 
+ * @author Aarthi Tamilselvan
+ * @version 1.0.0  
+ * 
+ */
+export class AppServiceService {
 
   constructor() { }
 
-  getMainOptionList() {
-    return this.mainOptionsList = mainOptionsList;
+  /**  
+   * Gets main option list
+   * @return {mainOptions[]} Returns main option list
+   **/
+  getMainOptionList(): mainOptions[] {
+    return mainOptionsList;
   }
 
-  getCollectionOptionList() {
-    return this.collectionOptionList = collectionOptionList;
+  /**  
+   * Gets collection option list
+   * @return {collectionOptions[]} Returns collection option list
+   **/
+  getCollectionOptionList(): collectionOptions[] {
+    return collectionOptionList;
   }
 
-  getPlaceList() {
-    return this.placesList = placesList;
+  /**  
+   * Gets places list
+   * @return {places[]} Returns places list
+   **/
+  getPlaceList(): places[] {
+    return placesList;
   }
 
-  getDiningOutItemsList() {
-    return this.diningOutItemsList = diningOutItemsList;
+  /**  
+   * Gets dining out items list
+   * @return {diningOutItems[]} Returns dining out items list
+   **/
+  getDiningOutItemsList(): diningOutItems[] {
+    return diningOutItemsList;
   }
 
-  getTrendingItemsList() {
-    return this.trendingItemsList = trendingItemsList;
+  /**  
+   * Gets trending items list
+   * @return {trendingItems[]} Return trending items list
+   **/
+  getTrendingItemsList(): trendingItems[] {
+    return trendingItemsList;
+  }
+
+  public getRestaurant(title: string): any {
+    return diningOutItemsList.find(restaurant => restaurant.title == title);
   }
 }
